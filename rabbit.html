@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rabbits</title>
+        <style>
+        body {
+            background-color:  rgb(232, 131, 0);
+            font-size: 32px;
+        }
+
+        h1 {
+            color: rgb(182, 25, 25);
+            text-align: center;
+            text-decoration: overline;
+        }
+
+        h2 {
+            color: rgb(41, 148, 48);
+            font-size: 1.5em; /* 1.5em is 1.5 times the size of the parent element */
+        }  
+        
+        p {
+            color: rgb(87, 0, 116);
+            font-family: "Roboto", sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+        /* border-collapse: collapse; is used to make the table borders collapse into a single border */
+        /* width: 100%; is used to make the table take up the full width of the container */
+        /* margin-top: 10px; is used to add some space between the table and the previous element */
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        /* th is the table header, td is the table data */
+        /* border: 1px solid black; is used to add a border to the table cells */
+        /* padding: 10px; is used to add some space between the table cells and the table borders */
+
+        th {
+            background-color: rgb(245, 194, 107);
+            font-weight: bold; 
+        }
+
+        #basic-info, #songs {
+            background-color: rgb(243, 239, 4);
+        }
+        
+        #author {
+            background-color: rgb(93, 121, 211);
+            font-family: monospace;
+            line-height: 1.5em;
+            text-align: right;
+            margin-top: 0; /* no margin (space) at the top */
+        }
+
+        #jump-to {
+            text-decoration: underline;
+        }
+
+        #jumpy {
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+
+        #basic-info-text {
+            background-color: rgb(243, 159, 4);
+            text-align: justify;
+        }
+
+        #read-more {
+            text-align: center;
+        }
+
+        #basic-info-text-3-4-5 {
+            height: 150px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin: 0px 85px 0px 85px;
+            border: 10px solid rgb(219, 120, 6);
+        }
+
+        .song-lyrics {
+            background-color: rgb(93, 121, 211);
+            font-family: monospace; /* you can also use cursive, fantasy, Roboto, etc. */
+            line-height: 1.5em; /* 1.5 is the line height, 1 is the default */
+            text-align: center;
+            margin-bottom: 0; /* no margin (space) at the bottom */
+        }
+
+        .things-rabbits-make-great-pets {
+            font-weight: bold; /* can also use <strong>*/
+            font-style: italic; /* can also use <em>*/
+            color: rgb(99, 85, 5);
+        }
+
+        </style>
+    </head>
+    <body>
+
+    <h1 id="home">All about rabbits!</h1>
+    <h4 id="jump-to"><span id="jumpy">Jump</span> to:</h4>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#basic-info">Basic info</a></li>
+        <li><a href="#songs">Songs</a></li>
+        <li><a href="#why-rabbits-make-great-pets">Why rabbits make great pets</a></li>
+        <li><a href="#top-3-most-famous-rabbits">Top 3 most famous rabbits</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+
+    <h2 id="basic-info">Basic info</h2>
+    <div id="basic-info-text">
+    <p id="basic-info-text-1">
+        Rabbits are <strong>small mammals</strong> known for their <em>soft fur</em>, long ears, and short, fluffy tails. They are herbivores, feeding
+        mostly on <u>hay, grass</u>, and <em>leafy vegetables</em>. With their powerful back legs, rabbits can hop quickly and cover surprising
+        distances. In the wild, they often live in burrows and are most active at <em>dawn and dusk</em>. Domestic rabbits are usually <u>gentle and
+        quiet,</u> making them <strong><em>great companions</em></strong> for families. With proper care, they can live up to <u><strong>10 years or
+        more</strong></u>. Rabbits also groom themselves frequently and enjoy having space to explore. Because of their <strong>curious nature</strong>
+        and calm temperament, they are <u>considered</u> <strong><em>ideal pets</em></strong> for those who can give them time and attention.
+        </p>
+    
+    <p id="basic-info-text-2">
+        Rabbits have excellent hearing and can rotate their long ears to detect sounds from different directions. This helps them stay alert in the
+        wild and avoid predators. Their teeth never stop growing, so they need to chew on hay or wood to keep them at a healthy length. Rabbits are
+        <u><em>highly social animals</em></u> and often thrive best when kept in pairs. They communicate through body language, such as thumping their
+        feet or flicking their ears, to show fear or excitement. A rabbit that lies down with its legs stretched out is usually feeling <strong><u>very
+        relaxed</u></strong>. If a rabbit nudges your hand or gently bumps its head against you, it may be asking for <strong><em><u>your attention or
+        affection</u></em></strong>. Their behavior is often subtle but can be quite expressive once you learn to understand it. Providing a safe,
+        quiet, and <u><strong>enriching environment</strong></u> is key to keeping your rabbit <em>happy and healthy</em>.
+        </p>
+        <p id="read-more"> <strong><u>Read More</u></strong></p>
+
+    <div id="basic-info-text-3-4-5">
+    <p id="basic-info-text-3">
+        A rabbit’s ears are not just for hearing — they also help regulate body temperature. When it’s hot, the blood vessels in their large ears help
+        release excess heat. This natural cooling system is one reason rabbits thrive in many climates. Their ears can even rotate independently to
+        better detect sounds from all directions, making them <u><em>very alert animals</em></u>.
+        </p>
+        
+        <p id="basic-info-text-4">
+        Rabbits have powerful hind legs built for jumping and running. In the wild, these legs allow them to escape predators quickly by darting in
+        unpredictable directions. Their strong legs are also great for hopping over obstacles and digging. Domestic rabbits still have this instinct
+        and may <strong>thump their feet</strong> as a warning signal when they sense danger.
+        </p>
+        
+        <p id="basic-info-text-5">
+        When rabbits feel safe and content, they may flop onto their side — a behavior known as a “bunny flop.” This action shows complete trust and
+        comfort. Rabbits also perform a move called a "binky," where they jump and twist in the air. It’s their way of expressing pure joy. A rabbit
+        that shows these signs is <strong><em><u>healthy, happy, and well cared for</u></em></strong>.
+        </p>
+        </div>
+    </div> 
+    <br>
+
+    <a href="https://www.petscorner.co.uk/Images/Article/large/pc-ah-rabbit-myths-article2.jpg" target="_blank">
+    <img src="https://www.petscorner.co.uk/Images/Article/large/pc-ah-rabbit-myths-article2.jpg" alt="Rabbit with lop ears in barn" width="300">
+    </a> <br>
+    <p>Source: <a href="https://www.petscorner.co.uk/Images/Article/large/pc-ah-rabbit-myths-article2.jpg" target="_blank">Petscorner</a></p>
+        
+        
+    <!-- <em> is an emphasis (italic), <strong> is a strong emphasis (bold) -->
+
+    <h2 id="songs">Songs</h2>
+    
+    <p class="song-lyrics">
+        <u>
+        The rabbits march in one by one, hooray! hooray! <br>
+        They sniff the ground and jump for fun, hooray! hooray! <br>
+        They twitch their noses, thump their feet, <br>
+        They make the garden smell so sweet, <br>
+        And they all go hopping down — in the rabbit parade! <br>
+        </u>
+    </p>
+    <!-- <br> is a line break, <p> is a paragraph, <u> is an underline -->
+    <p id="author"><u>- Chatgpt</u></p> 
+
+    
+    <h3 id="why-rabbits-make-great-pets">Why rabbits make great pets</h3>
+    
+    <ol class="things-rabbits-make-great-pets">
+        <li> <strong>Quiet and clean:</strong> Rabbits are silent pets and often <em>keep themselves tidy</em>. </li>
+        <li> <strong>Social:</strong> They bond with owners and may <strong><em>gently ask for attention</em></strong>. </li>
+        <li> <strong>Playful:</strong> They enjoy toys and hopping around, making them fun and <strong><u>engaging companions</u></strong>! </li>
+        </ol>
+          
+    <!-- ul is an unordered list (bullet points), ol is an ordered list (numbers) -->
+
+    <h3 id="top-3-most-famous-rabbits">Rabbits types</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Popularity (2024 est)</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mini Rex</td>
+                <td>~41.0%</td>
+                <td>White, black, gray, orange, brown, and more</td>
+            </tr>
+            <tr>
+                <td>Netherland Dwarf</td>
+                <td>~32.2%</td>
+                <td>Black, gray, white, brown, blue, and more</td>
+            </tr>
+            <tr>
+                <td>Holland Lop</td>
+                <td>~26.7%</td>
+                <td>Brown, white, black, mixed color, and more</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <thead> is the table header, <tbody> is the table body -->
+    <!-- <tr> is a table row, <th> is a table header, <td> is a table data -->
+    <!-- <th> is the table header, <td> is the table data -->
+
+    <h3 id="links">Links</h3>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Rabbit">Read more about rabbits (Wikipedia)</a>
+    <!-- target="_blank" opens the link in a new tab, a href is a hyperlink -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    </body>
+</html>
